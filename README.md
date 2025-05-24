@@ -23,9 +23,12 @@ Then run it:
 
 
 If you want an desktop entry:
+
 ```bash
 sudo mkdir -p /usr/local/share/icons
+
 sudo cp assets/NovaPlayer.jpg /usr/local/share/icons/novaplayer.jpg
+
 mkdir -p ~/.local/share/applications
 ```
 
