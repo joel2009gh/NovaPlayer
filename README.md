@@ -30,7 +30,7 @@ The clean, modern interface makes it easy to play and record streams:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/NovaPlayer.git
+   git clone https://github.com/joel2009gh/NovaPlayer
    cd NovaPlayer
    ```
 
