@@ -60,7 +60,7 @@ python3 novaplayer.py "https://icecast.omroep.nl/radio1-bb-mp3"
 # Using the launcher script
 ./start_novaplayer.sh "https://your-stream-url.com/stream"
 ```
-
+If you want to change the name of the file, then change novaplayer.py, and change the EXAMPLE.
 ### Headless Mode
 Perfect for automation and server deployments:
 
