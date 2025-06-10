@@ -136,7 +136,6 @@ chmod +x start_novaplayer.sh
 
 **Audio issues:**
 ```bash
-# Check if VLC can play the stream directly
 cvlc "https://your-stream-url.com"
 ```
 
