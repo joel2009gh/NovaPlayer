@@ -331,7 +331,7 @@ class NovaPlayer:
         day = now.day
         month_name = now.strftime("%B")
         time_of_day = "avond" if now.hour >= 12 else "ochtend"
-        filename = f"Ds van Krimpen {day} {month_name} {time_of_day}.mp3"
+        filename = f"EXAMPLE {day} {month_name} {time_of_day}.mp3"
         return os.path.join(self.recordings_dir, filename)
 
     def start_recording(self):
