@@ -4,6 +4,10 @@ A modern, feature-rich stream player and recorder built with Python and VLC. Nov
 
 ![NovaPlayer](assets/NovaPlayer.png)
 
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Features ✨
 
 - **Stream Playback**: Play audio streams using VLC's powerful engine
