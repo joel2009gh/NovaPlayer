@@ -36,8 +36,8 @@ The clean, modern interface makes it easy to play and record streams:
 
 2. **Run the installation script:**
    ```bash
-   chmod +x install.sh
-   ./install.sh
+   chmod +x requirements.sh
+   ./requirements.sh
    ```
 
 3. **Start using NovaPlayer:**
