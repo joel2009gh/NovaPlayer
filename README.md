@@ -80,18 +80,7 @@ python3 novaplayer.py "https://stream-url.com" --headless --record
 | `--headless` | Run without GUI |
 | `--record` | Automatically start recording |
 
-## Configuration ⚙️
 
-NovaPlayer uses a `config.json` file for customization:
-
-```json
-{
-    "filename_prefix": "My Recording",
-    "max_retries": 10,
-    "retry_delay": 5,
-    "recordings_dir": "~/Opnames"
-}
-```
 
 ### Configuration Options
 
