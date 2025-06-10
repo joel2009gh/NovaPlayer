@@ -44,10 +44,12 @@ The clean, modern interface makes it easy to play and record streams:
    ```bash
    ./start_novaplayer.sh
    ```
+   
 
    ## Usage 💡
 
 ### GUI Mode
+But first activate the virtual env: python3 venv/bin/activate
 ```bash
 # Basic usage
 python3 novaplayer.py
