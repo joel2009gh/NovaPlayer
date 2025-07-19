@@ -248,7 +248,8 @@ class NovaPlayer:
             else:
                 print(f"NovaPlayer: {status_msg}")
             
-            cmd = ['cvlc', '--intf', 'dummy', '--quiet', self.url]
+            # SSL certificaat fix: voeg --http-cert-ignore toe
+            cmd = ['cvlc', '--intf', 'dummy', '--quiet', '--http-cert-ignore', '--gnutls-system-trust', self.url]
             if self.headless:
                 cmd.extend(['--no-video'])
             
@@ -348,7 +349,8 @@ class NovaPlayer:
                 
             self.current_recording_file = self.get_recording_filename()
             
-            cmd = ['cvlc', '--intf', 'dummy', '--quiet', url, '--sout', f'#transcode{{acodec=mp3,ab=192}}:std{{access=file,mux=raw,dst={self.current_recording_file}}}', '--sout-keep']
+            # SSL certificaat fix ook voor opname
+            cmd = ['cvlc', '--intf', 'dummy', '--quiet', '--http-cert-ignore', '--gnutls-system-trust', url, '--sout', f'#transcode{{acodec=mp3,ab=192}}:std{{access=file,mux=raw,dst={self.current_recording_file}}}', '--sout-keep']
             
             self.record_process = subprocess.Popen(
                 cmd,
